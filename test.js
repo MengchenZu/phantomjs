@@ -6,5 +6,5 @@ page.open(url, function(status) {
   setTimeout(function() {
         page.render('google.png');
         phantom.exit();
-  }, 10000);
+  }, 3000);
 });
